@@ -4,15 +4,70 @@ body{
 }
 
 header{display: flex; 
+       color: whitesmoke;
        position: fixed;
+       flex-direction: row;
+       align-items: center; 
        width: 51vw; 
+       height: 5vh;
        border-radius: 30px 30px 30px 30px; 
        margin-left: 24.5vw; background-color: darkslategray;}
 
 .menu{display: flex; 
       color:whitesmoke;
-      width: 17vw; 
-      justify-content: center; 
+      height: 5vh;
+      width: 8vw;
+      margin-left: 3.75vw;
+      justify-content: center;
+      align-items: center; 
       border-radius: 30px 30px 30px 30px;}
 
-p{display: block;}
+.menu:hover a{
+      display: flex;
+      background-color: whitesmoke;
+      height: 5vh;
+      width: 8vw;
+      color: darkslateblue;
+      justify-content: center;
+      align-items: center; 
+      text-decoration: solid;
+      text-decoration-color: darkslateblue;
+      border-radius: 15px 15px 15px 15px;
+    }
+
+.menu a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+nav{width: 3vw; 
+    height: 26vh;
+    position: fixed;     
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    bottom: 1em;
+    left: 2em;
+   }
+
+.git{width: 2vw;
+     height: 4vh; 
+     margin-bottom: 1.5vh;
+}
+
+.mail{width: 2vw;
+      height: 5vh; 
+      margin-bottom: 1vh;
+}
+
+.linkedin{width: 2vw;
+          height: 4vh;
+          margin-bottom: 1.5vh;
+}
+
+nav div{
+    display: flex;
+    background-color: darkslategray;
+    width: 0.1vw;
+    height: 6vh;
+}

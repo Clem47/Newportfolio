@@ -1,0 +1,27 @@
+.about_me div{
+    background-color: darkslategrey;
+    height: 50%;
+    margin-left: 4%;
+    margin-right: 4%;
+    width: 0.2%;
+}
+
+.about_me{
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vw;
+    width: 99vw;
+    height: 98vh;
+    justify-content: center;
+    align-items: center;
+}
+.about_me img{height: 39vh;
+              width: 15vw;}
+
+.about_me .picture{border: none;
+                   height: 39vh;
+                   width: 15vw;}
+
+.about_me .who_i_am{background-color:transparent;
+                    height: 39vh;
+                    width: 15vw;}

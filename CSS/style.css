@@ -1,6 +1,7 @@
 body{
     display: flex;
     background-color: #f7ece1;
+    overflow-y: hidden;
 }
 
 header{display: flex; 
@@ -8,16 +9,14 @@ header{display: flex;
        position: fixed;
        flex-direction: row;
        align-items: center; 
-       width: 50%; 
-       height: 5%;
+       width: 50vw; 
+       height: 5vh;
        border-radius: 30px 30px 30px 30px; 
-       margin-left: 24%; background-color: darkslategray;}
+       margin-left: 24vw; background-color: darkslategray;}
 
 .menu{display: flex; 
-      color:#f7ece1;
       height: 100%;
       width: 100%;
-      text-size-adjust: auto;
       justify-content: center;
       align-items: center; 
       border-radius: 30px 30px 30px 30px;}
@@ -37,33 +36,33 @@ header{display: flex;
 
 .menu a{
     text-decoration: none;
-    color: #f7ece1;
+    color: whitesmoke;
 }
 
-nav{width: 3%; 
-    height: 26%;
+nav{width: 3vW; 
+    height: 26vh;
     position: fixed;     
     display:flex ;
     flex-direction: column;
     align-items: center;
-    bottom: 3%;
-    left: 2%;
+    bottom: 3vh;
+    left: 2vw;
    }
 
-.git{width: 75%;
-     height: 75%; 
+.git{width: 80%;
+     height: 73%; 
      margin-bottom: 15%;
      margin-left: 7.6%;
 }
 
-.mail{width: 75%;
+.mail{width: 80%;
       height: 80%; 
       margin-left: 7.6%;
       margin-bottom: 15%;
 }
 
-.linkedin{width: 75%;
-          height: 75%; 
+.linkedin{width: 80%;
+          height: 73%; 
           margin-left: 7.6%;
           margin-bottom: 15%;
 }
@@ -71,13 +70,13 @@ nav{width: 3%;
 nav div{
     display: flex;
     background-color: darkslategray;
-    width: 3%;
+    width: 3.5%;
     height: 27%;
 }
 
 .button{
-    bottom: 3%;
-    left: 49%;
+    bottom: 3vh;
+    left: 48.45vw;
     position: fixed;
 }
 
@@ -92,11 +91,9 @@ nav div{
 }
 
 .container{
-    display: flex;
     scroll-snap-type: y mandatory;
-    flex-flow: column nowrap;
-    overflow: auto;
-    flex: none;
+    overflow-y: scroll;
+    height: 100vh;  
 }
 
 .container > div{

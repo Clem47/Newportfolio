@@ -1,7 +1,7 @@
 body{
     display: flex;
+    flex-direction: column;
     background-color: #f7ece1;
-    overflow-y: hidden;
 }
 
 header{display: flex; 
@@ -88,16 +88,5 @@ nav div{
 
 .button img:hover{
     opacity: 1;
-}
-
-.container{
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;  
-}
-
-.container > div{
-    scroll-snap-align: center;
-    flex: none;
 }
 
